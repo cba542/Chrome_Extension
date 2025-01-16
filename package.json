@@ -1,0 +1,27 @@
+{
+  "name": "chrome_extension",
+  "version": "1.0.0",
+  "main": "src/background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cba542/Chrome_Extension.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cba542/Chrome_Extension/issues"
+  },
+  "homepage": "https://github.com/cba542/Chrome_Extension#readme",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
